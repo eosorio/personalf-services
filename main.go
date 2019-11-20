@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"handlers"
+	"git.osmon.local/handlers"
 	"net/http"
 	"os"
 )
