@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"git.osmon.local/handlers"
+	"git.osmon.local/personalf-services/handlers"
 	"net/http"
 	"os"
 )
