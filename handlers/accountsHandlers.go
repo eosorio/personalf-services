@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"git.osmon.local/personalf-services/handlers/accounts"
+	"git.osmon.local/personalf-services/accounts"
 	"net/http"
 )
 

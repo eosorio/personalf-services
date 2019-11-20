@@ -2,7 +2,7 @@ package accounts
 
 import (
 	"database/sql"
-	"databaseInfo"
+	"git.osmon.local/personalf-services/databaseInfo"
 	"errors"
 	"fmt"
 	"log"
