@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"net/http"
-	"statementEntry"
+	"git.osmon.local/personalf-services/statementEntry"
 )
 
 func statementsGetCycle(w http.ResponseWriter, _ *http.Request, accountID int64, cycle int64) {
