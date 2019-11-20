@@ -3,7 +3,7 @@ package statementEntry
 import (
 	//"context"
 	"database/sql"
-	"databaseInfo"
+	"git.osmon.local/personalf-services/databaseInfo"
 	"errors"
 	"fmt"
 	"log"
