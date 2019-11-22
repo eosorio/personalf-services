@@ -1,4 +1,4 @@
-package statementEntry
+package main
 
 import (
 	"fmt"
