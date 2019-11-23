@@ -14,6 +14,6 @@ COPY . .
 RUN go get -d -v ./...
 #RUN go install -v ./...
 
-RUN go build -o /accountsService -i /go/src/git.osmon.local/personalf-services/accountsService.go
-CMD ["/accountsService"]
+RUN go build -o /statementsService -i /go/src/git.osmon.local/personalf-services/statementsService.go
+CMD ["/statementsService"]
 
