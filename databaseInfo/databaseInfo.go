@@ -10,5 +10,5 @@ type DBconnectData struct {
 }
 
 var (
-	DBconnectInfo = DBconnectData{User: "eosorio", Hostname: "localhost", Name: "personal_finance_test"}
+	DBconnectInfo = DBconnectData{User: "eosorio", Hostname: "localhost", Name: "personal_finance"}
 )
