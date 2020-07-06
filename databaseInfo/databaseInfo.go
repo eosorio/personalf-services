@@ -8,7 +8,3 @@ type DBconnectData struct {
 	IPhost   string
 	Name     string
 }
-
-var (
-	DBconnectInfo = DBconnectData{User: "", Hostname: "db", Name: "personal_finance"}
-)
