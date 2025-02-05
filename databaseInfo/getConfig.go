@@ -11,6 +11,10 @@ func GetConfigFromEnv() DBconnectData {
 	if isSet {
 		dbConnectInfo.User = value
 	}
+	value, isSet = os.LookupEnv("DB_PASSWORD")
+	if isSet {
+		dbConnectInfo.Pass = value
+	}
 	value, isSet = os.LookupEnv("DB_NAME")
 	if isSet {
 		dbConnectInfo.Name = value
