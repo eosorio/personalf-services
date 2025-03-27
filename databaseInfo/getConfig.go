@@ -1,7 +1,6 @@
 package databaseInfo
 
 import (
-	"io/ioutil"
 	"log"
 	"os"
 )
@@ -20,7 +19,7 @@ func GetConfigFromEnv() DBconnectData {
 	} else {
 		// Try reading password from file if environment variable is missing
 		passwordFilePath := "/run/secrets/db_password"
-		passwordData, err := ioutil.ReadFile(passwordFilePath)
+		passwordData, err := os.ReadFile(passwordFilePath)
 		if err == nil {
 			dbConnectInfo.Pass = string(passwordData)
 		} else {
